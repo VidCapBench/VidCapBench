@@ -1,4 +1,6 @@
-## Hi there 👋
+# VidCapBench: A Comprehensive Benchmark of Video Captioning for Controllable Text-to-Video Generation
+
+coming soon~
 
 <!--
 **VidCapBench/VidCapBench** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
