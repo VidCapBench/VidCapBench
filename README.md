@@ -47,10 +47,10 @@ python eval.py --caption_path /path_to/caption.jsonl --qa_path /path_to/VidCapBe
 You can use your own API key for GPT-4o evaluation by editing the code [here](./eval.py#L24).
 
 ## Experimental Results
-
 <p align="center">
-    <img src="./assets/main_results.png" width="100%" height="100%">
+    <img src="./assets/main_results.png" width="100%" >
 </p>
+
 
 ## 🪪 License
 ```
