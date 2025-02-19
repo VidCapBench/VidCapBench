@@ -61,11 +61,3 @@ If there is any infringement in VidCapBench, please email vidcapbench@gmail.com 
 Without prior authorization, you are not permitted to distribute, publish, copy, disseminate, or modify any part of VidCapBench. 
 Compliance with these restrictions is mandatory.
 ```
-
-## 📜 Citation
-
-If you find our work helpful for your research, please consider citing our work.   
-
-```bibtex
-TODO
-```
