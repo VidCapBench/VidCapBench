@@ -44,7 +44,7 @@ cd ./VidCapBench
 ```
 4. Execute the evaluation script with your generated captions:
 ```
-python eval.py --caption_path /path_to/caption.jsonl --qa_path /path_to/VidCapBench-AE.jsonl
+python eval.py --caption_path /path_to/caption.jsonl --qa_path /path_to/VidCapBench-AE_QA.jsonl
 ```
 You can use your own API key for GPT-4o evaluation by editing the code [here](./eval.py#L24).
 
