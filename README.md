@@ -1,10 +1,5 @@
 # VidCapBench: A Comprehensive Benchmark of Video Captioning for Controllable Text-to-Video Generation
 
-<p align="left">
-  <a href="https://arxiv.org/abs/2502.12782"><img src="https://img.shields.io/badge/arXiv-2502.12782-red"></a>
-  <a href="https://huggingface.co/datasets/VidCapBench/VidCapBench"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-VidCapBench-blue"></a>
-</p>
-
 ## 🚀 Overview
 VidCapBench is the first evaluation benchmark designed to assess the quality of video captions for controllable text-to-video (T2V) generation. Our goal is to provide a robust and diverse benchmark to evaluate captioning models and guide the development of high-quality T2V systems.
 
