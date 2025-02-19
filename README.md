@@ -21,7 +21,9 @@ To achieve this, we have made the following endeavors in data curation:
     <img src="./assets/demo_qa_distribution.png" width="94%" height="100%">
 </p>
 
-* ***Training-free T2V verification.*** We have conducted training-free T2V verification to demonstrate the significant positive correlation between scores on VidCapBench and T2V quality metrics, highlighting that VidCapBench can provide valuable guidance for training T2V models. We provide a qualitive illustration below. In this case, the video is associated with nine QA pairs in VidCapBench-AE <img src="./assets/AE.png" width="20" height="20"> and four QA pairs in VidCapBench-HE <img src="./assets/HE.png" width="18" height="18">. The similarity between the generated video and the original video, as well as the overall generation quality, are strongly correlated with the evaluation results in VidCapBench. Among the captioning models compared, Gemini exhibits the best performance. 
+* ***Training-free T2V verification.*** We have conducted training-free T2V verification to demonstrate the significant positive correlation between scores on VidCapBench and T2V quality metrics, highlighting that VidCapBench can provide valuable guidance for training T2V models.
+  
+    We provide a qualitive illustration below. “VA”, “SC”, “AR”, and “LC” denote the four key dimensions of T2V quality evaluation: “Visual Aesthetics”, “Subject Consistency”, “Action Relevance”, and “Logical Coherence”, respectively. In this case, the video is associated with nine QA pairs in VidCapBench-AE <img src="./assets/AE.png" width="20" height="20"> and four QA pairs in VidCapBench-HE <img src="./assets/HE.png" width="18" height="18">. The similarity between the generated video and the original video, as well as the overall generation quality, are strongly correlated with the evaluation results in VidCapBench. Among the captioning models compared, Gemini exhibits the best performance.
 <p align="center">
     <img src="./assets/casestudy.png" width="94%" height="100%">
 </p>
