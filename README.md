@@ -28,11 +28,23 @@ To achieve this, we have made the following endeavers in data curation:
 
 ## Evaluation
 To evaluate your captioning models on VidCapBench, please follow these steps:
-1. Use your captioning model to generate captions for the videos in VidCapBench, and save the generated captions in JSONL format, adhering to the following structure:
+1. Clone this repo.
+```
+git clone https://github.com/VidCapBench/VidCapBench.git
+cd ./VidCapBench
+```
+
+2. Download the videos and QA files at 
+
+3. Use your captioning model to generate captions for the videos in VidCapBench, and save the generated captions in JSONL format, adhering to the following structure:
 ```
 {"question": "Describe the video in detail.", "video": "videos_qa_80.mp4", "model_generation": Caption}
 ```
-2. TODO
+4. execute the evaluation script with the path to your generated captions:
+```
+python eval.py --caption_path /path_to/caption.jsonl --qa_path /path_to/VidCapBench-AE.jsonl
+```
+You can use your own API key for GPT-4o evaluation by editing the code [here](./eval.py#L24).
 
 
 ## Citation
