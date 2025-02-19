@@ -1,6 +1,6 @@
 # VidCapBench: A Comprehensive Benchmark of Video Captioning for Controllable Text-to-Video Generation
 
-## Overview
+## 🚀 Overview
 VidCapBench is the first evaluation benchmark designed to assess the quality of video captions for controllable text-to-video (T2V) generation. Our goal is to provide a robust and diverse benchmark to evaluate captioning models and guide the development of high-quality T2V systems.
 
 To achieve this, we have made the following endeavers in data curation:
@@ -26,7 +26,7 @@ To achieve this, we have made the following endeavers in data curation:
     <img src="./assets/casestudy.png" width="94%" height="100%">
 </p>
 
-## Evaluation
+## 🛠️ Evaluation Pipeline
 To evaluate your captioning models on VidCapBench, please follow these steps:
 1. Clone this repo.
 ```
@@ -34,7 +34,7 @@ git clone https://github.com/VidCapBench/VidCapBench.git
 cd ./VidCapBench
 ```
 
-2. Download the videos and QA files at 
+2. Download the videos and QA files at TODO
 
 3. Use your captioning model to generate captions for the videos in VidCapBench, and save the generated captions in JSONL format, adhering to the following structure:
 ```
@@ -46,8 +46,22 @@ python eval.py --caption_path /path_to/caption.jsonl --qa_path /path_to/VidCapBe
 ```
 You can use your own API key for GPT-4o evaluation by editing the code [here](./eval.py#L24).
 
+## Experimental Results
 
-## Citation
+<p align="center">
+    <img src="./assets/main_results.png" width="100%" height="100%">
+</p>
+
+## 🪪 License
+```
+VidCapBench is intended solely for academic research purposes, and any form of commercial use is strictly prohibited. 
+The copyright of all videos belongs to the video owners.
+If there is any infringement in VidCapBench, please email vidcapbench@gmail.com and we will remove it immediately.
+Without prior authorization, you are not permitted to distribute, publish, copy, disseminate, or modify any part of VidCapBench. 
+Compliance with these restrictions is mandatory.
+```
+
+## 📜 Citation
 
 If you find our work helpful for your research, please consider citing our work.   
 
