@@ -1,4 +1,9 @@
-# VidCapBench: A Comprehensive Benchmark of Video Captioning for Controllable Text-to-Video Generation
+# VidCapBench: A Comprehensive Benchmark of Video Captioning for Controllable Text-to-Video Generation [Findings of ACL 2025]
+
+<p align="left">
+  <a href="https://arxiv.org/abs/2502.12782"><img src="https://img.shields.io/badge/arXiv-2502.12782-red"></a>
+  <a href="https://huggingface.co/datasets/VidCapBench/VidCapBench"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-VidCapBench-blue"></a>
+</p>
 
 ## 🚀 Overview
 VidCapBench is the first evaluation benchmark designed to assess the quality of video captions for controllable text-to-video (T2V) generation. Our goal is to establish a diverse and robust benchmark to evaluate captioning models and guide the development of high-quality T2V systems.
@@ -62,4 +67,17 @@ The copyright of all videos belongs to the video owners.
 If there is any infringement in VidCapBench, please email vidcapbench@gmail.com and we will remove it immediately.
 Without prior authorization, you are not permitted to distribute, publish, copy, disseminate, or modify any part of VidCapBench. 
 Compliance with these restrictions is mandatory.
+```
+
+## 📜 Citation
+
+If you find our work helpful for your research, please consider citing our work.   
+
+```bibtex
+@article{chen2025vidcapbench,
+  title={VidCapBench: A Comprehensive Benchmark of Video Captioning for Controllable Text-to-Video Generation},
+  author={Chen, Xinlong and Zhang, Yuanxing and Rao, Chongling and Guan, Yushuo and Liu, Jiaheng and Zhang, Fuzheng and Song, Chengru and Liu, Qiang and Zhang, Di and Tan, Tieniu},
+  journal={arXiv preprint arXiv:2502.12782},
+  year={2025}
+}
 ```
